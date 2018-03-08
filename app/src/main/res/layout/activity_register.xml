@@ -195,7 +195,19 @@
                 android:inputType="numberSigned"
                 android:text="0"
                 android:textAlignment="center" />
+
         </LinearLayout>
 
+        <Button
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onSaveButtonClicked"
+            android:text="Save"
+            tools:layout_editor_absoluteX="157dp"
+            tools:layout_editor_absoluteY="158dp" />
+
     </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>
